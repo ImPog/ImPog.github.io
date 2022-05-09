@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Fire UI CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fire-ui/fire-ui@0.2.2/FireUI.min.css">
+    <!-- Additional CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Fire UI Javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/@fire-ui/fire-ui@0.2.2/FireUI.min.js"></script>
+    <link rel="shortcut icon" href="profile-picture.png" type="image/x-icon">
+    <title>Jhondel Andal</title>
+</head>
+<body data-theme="light">
+    <div class="topnav theme-reverse topnav-shadow">
+        <span class="topnav-brand">Jhondel</span>
+        <span class="topnav-hamburger-menu" data-target="myTopnav">&#x2630;</span>
+        <div class="topnav-right" id="myTopnav">
+            <a class="topnav-item" href="">Home</a>
+            <a class="topnav-item" href="#achievement">Achievements</a>
+            <a class="topnav-item" href="#contact">Contact</a>
+            <a class="topnav-item" data-switch-theme="light, dark, aqua, sky, phoenix, indigo, teal">Switch theme</a>
+        </div>
+    </div>
+    <div class="box bold"><marquee direction="right" data-speed="7">News on Melfort</marquee></div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-6">
+                <div class="slideshow-container">
+                    <div class="slideshow">
+                        <img src="https://cdn.spacetelescope.org/archives/images/wallpaper2/heic2007a.jpg">
+                        <span class="slideshow-caption">Caption One</span>
+                    </div>
+                
+                    <div class="slideshow slideshow-none">
+                        <img src="https://images.ctfassets.net/hrltx12pl8hq/4plHDVeTkWuFMihxQnzBSb/aea2f06d675c3d710d095306e377382f/shutterstock_554314555_copy.jpg">
+                        <span class="slideshow-caption">Caption Two</span>
+                    </div>
+                
+                    <div class="slideshow slideshow-none">
+                        <img src="https://wallpaperaccess.com/full/235804.jpg">
+                        <span class="slideshow-caption">Caption Three</span>
+                    </div>
+                
+                    <a class="slideshow-prevBtn" onclick="btnSlide(-1)">&#10094;</a>
+                    <a class="slideshow-nextBtn" onclick="btnSlide(1)">&#10095;</a>
+                </div>
+                <br>
+                
+                <div class="slideshow-info">
+                    <span class="slideshow-dot" onclick="currentSlide(1)"></span>
+                    <span class="slideshow-dot" onclick="currentSlide(2)"></span>
+                    <span class="slideshow-dot" onclick="currentSlide(3)"></span>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="p-3">
+                    <h1 class="intro-title">Mystery Unfolded</h1>
+                    <p class="intro-text">Breaking news, a horrible sight, <span class="tooltip">ground shaking<span class="tooltip-data tooltip-top">Terrifying</span></span> Breaking News! There has been sights of a humongous ugly thing on the streets of Stovel Avenue East. Espeially the house 409, it is indentifies as a grade 7 boy with ugly glasses and bad style. This is your news. <span class="tooltip">skin crawling<span class="tooltip-data tooltip-top">Hello World</span></span>Breaking News! There has been sights of a humongous ugly thing on the streets of Stovel Avenue East. Espeially the house 409, it is indentifies as a grade 7 boy with ugly glasses and bad style. This is your news. <span class="tooltip">jaw breaking<span class="tooltip-data tooltip-top">News Spreading</span></span>. A story the will forever stick with us</p>
+                    <a href="#achievement" class="btn theme-reverse">My achievement</a>
+                    <a href="#contact" class="btn theme-adjust">Contact me</a>
+                </div>
+            </div>
+        </div>
+        <div class="my-5" id="achievement">
+            <h1 class="heading-title">Achievements</h1>
+            <div class="row">
+                <div class="col-4">
+                    <div class="box m-2">
+                        <img src="achievements.jpg" alt="My achievement">
+                        <h2 class="box-title">First achievement</h2>
+                        <p class="box-text">Breaking News, a sight you wish you didnt see <span class="tooltip">ground breaking<span class="tooltip-data tooltip-top">Breaking News</span></span> scary. Breaking News! There has been sights of a humongous ugly thing on the streets of Stovel Avenue East. Espeially the house 409, it is indentifies as a grade 7 boy with ugly glasses and bad style. This is your news.</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="box m-2">
+                        <img src="achievements.jpg" alt="My achievement">
+                        <h2 class="box-title">Second achievement</h2>
+                        <p class="box-text">Breaking News! There has been sights of a humongous ugly thing on the streets of Stovel Avenue East. Espeially the house 409, it is indentifies as a grade 7 boy with ugly glasses and bad style. This is your news.</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="box m-2">
+                        <img src="achievements.jpg" alt="My achievement">
+                        <h2 class="box-title">Third achievement</h2>
+                        <p class="box-text">Breaking News! There has been sights of a humongous ugly thing on the streets of Stovel Avenue East. Espeially the house 409, it is indentifies as a grade 7 boy with ugly glasses and bad style. This is your news.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion btn btn-dark" data-panel = "Section1">Fourth Achievements</div>
+            <div class="accordion-panel" id="Section1">
+                <p>Breaking News! There has been sights of a humongous ugly thing on the streets of Stovel Avenue East. Espeially the house 409, it is indentifies as a grade 7 boy with ugly glasses and bad style. This is your news.</p>
+            </div>
+            <div class="accordion btn btn-dark" data-panel = "Section2">Fifth Achievements</div>
+            <div class="accordion-panel" id="Section2">
+                <p>Breaking News! There has been sights of a humongous ugly thing on the streets of Stovel Avenue East. Espeially the house 409, it is indentifies as a grade 7 boy with ugly glasses and bad style. This is your news.</p>
+            </div>
+        </div>
+        <div class="my-5 py-5" id="contact">
+            <div class="box theme-reverse">
+                <div class="tab theme-adjust" data-tab = "exampleTab">
+                    <button class="tab-btn" data-content="contactform">Contact Form</button>
+                    <button class="tab-btn" data-content= "contactemail">Email</button>
+                </div>
+                <div class="tab-contents" id="exampleTab">
+                    <div id="contactform" class="tab-content tab-content-active">
+                        <p>
+                            <form action="#" class="box p-3 box-shadow theme-adjust">
+                                <div class="form-group">
+                                    <h1 class="heading-title">Contact</h1>
+                                </div>
+                                <div class="form-group">
+                                    <p class="form-label">Email:</p>
+                                    <input type="email" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <p class="form-label">Message:</p>
+                                    <textarea class="form-control"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <input type="submit" value="Submit" class="btn theme-reverse form-control">
+                                </div>
+                            </form>
+                        </p>
+                    </div>
+                    <div id="contactemail" class="tab-content">
+                        <h1>Breaking News</h1>
+                        <p>
+                            Breaking News! There has been sights of a humongous ugly thing on the streets of Stovel Avenue East. Espeially the house 409, it is indentifies as a grade 7 boy with ugly glasses and bad style. This is your news.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
